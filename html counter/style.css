@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num p {
+    font-size: 400px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#minus {
+    padding: 2rem;
+    margin-right: 1rem;
+    border-radius: 40%;
+}
+
+
+#plus {
+    padding: 2rem;
+    margin-right: 1rem;
+    border-radius: 40%;
+}
